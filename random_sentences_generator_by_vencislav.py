@@ -13,7 +13,7 @@ def get_random_word(words):
     return random.choice(words)
 
 
-print('Hello , this is your first random sentence')
+print('Hello , this is your first random sentence!')
 while True:
     random_name = get_random_word(names)
     random_place = get_random_word(places)
